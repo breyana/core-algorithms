@@ -9,6 +9,8 @@ describe('fibonacci()', function(){
 
   it('should return an array of Fibonacci numbers', function(){
     expect(fibonacci(2)).to.be.a('array')
+    expect(fibonacci(0)).to.be.null
+    expect(fibonacci(1)).to.deep.equal([0])
     expect(fibonacci(2)).to.deep.equal([0,1])
     expect(fibonacci(10)).to.deep.equal([0, 1, 1, 2, 3, 5, 8, 13, 21, 34])
   })
