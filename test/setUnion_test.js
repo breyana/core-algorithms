@@ -14,6 +14,12 @@ describe('setUnion()', function(){
     expect(setUnion(a, b)).to.deep.equal([1, 2, 3, 4, 6, 8])
   })
 
+  it('returns an array if there are no differences', function(){
+    const a = [1, 2, 3, 4]
+    const b = [1, 2, 3, 4]
+    expect(setUnion(a, b)).to.deep.equal([1, 2, 3, 4])
+  })
+
   it('should return an error if inputs are not arrays', function(){
     expect(() => setUnion("word", 2)).to.throw(Error, 'Input is not an array')
   })
