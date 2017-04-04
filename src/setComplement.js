@@ -1,4 +1,4 @@
-export default function setIntersection(array1, array2) {
+export default function setComplement(array1, array2) {
   if (!Array.isArray(array1) && !Array.isArray(array2)) {
     throw new Error('Input is not an array')
   }
@@ -7,13 +7,13 @@ export default function setIntersection(array1, array2) {
     throw new Error('Requires two array inputs')
   }
 
-  let intersection = []
+  let complements = []
 
   array2.map((element) => {
-    if (array1.indexOf(element) > -1) {
-      intersection.push(element)
+    if (array1.indexOf(element) === -1) {
+      complements.push(element)
     }
   })
 
-  return intersection
+  return complements
 }
