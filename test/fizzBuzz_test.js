@@ -33,4 +33,10 @@ describe('fizzBuzz()', function(){
     expect(fizzBuzz()[74]).to.deep.equal('FizzBuzz')
     expect(fizzBuzz()[89]).to.deep.equal('FizzBuzz')
   })
+  it('returns expected number if neither a multiple of three or five', function(){
+    expect(fizzBuzz()[10]).to.deep.equal(11)
+    expect(fizzBuzz()[51]).to.deep.equal(52)
+    expect(fizzBuzz()[75]).to.deep.equal(76)
+    expect(fizzBuzz()[91]).to.deep.equal(92)
+  })
 })

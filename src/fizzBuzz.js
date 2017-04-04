@@ -16,6 +16,8 @@ export default function fizzBuzz() {
 
     if (fizzBuzzState.length > 0) {
       return fizzBuzzState.join('')
+    } else {
+      return element
     }
   })
 
