@@ -13,7 +13,7 @@ describe('binarySearch()', function(){
     expect(binarySearch(numbers, 45)).to.deep.equal(8)
   })
 
-  if('element to search for is not in the array', function(){
+  it('element to search for is not in the array', function(){
     const numbers = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
 
     expect(() => binarySearch(numbers, 100))
