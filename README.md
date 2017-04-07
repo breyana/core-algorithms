@@ -46,16 +46,16 @@ In addition, many job interview processes will include some algorithmic problem-
 
 ## Specifications
 
-- [ ] Artifact produced is a fork of the [core-algorithms][core-algorithms] repo.
-- [ ] Can run all tests with `npm test`.
-- [ ] All tests are passing.
-- [ ] For each algorithm in the [algorithms list][algorithms-list], there exists:
-  - [ ] a test file with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-  - [ ] an implementation file with a correct implementation of the algorithm.
+- [x] Artifact produced is a fork of the [core-algorithms][core-algorithms] repo.
+- [x] Can run all tests with `npm test`.
+- [x] All tests are passing.
+- [x] For each algorithm in the [algorithms list][algorithms-list], there exists:
+    - [x] a test file with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+    - [x] an implementation file with a correct implementation of the algorithm.
 
 ### Required
 
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+- [x] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ### Stretch
 
@@ -64,7 +64,7 @@ Pick a _different_ programming language from JavaScript (e.g. Ruby, Swift, Pytho
 - [ ] Can run all non-JavaScript tests with a single command.
 - [ ] For each algorithm identified above, there exists:
   - [ ] a test file with multiple unit tests for each algorithm  _in a language other than JavaScript_.
-  - [ ] an implementation file with a correct implementation of the algorithm _in a language other than JavaScript_.
+  - [x] an implementation file with a correct implementation of the algorithm _in a language other than JavaScript_.
 
 ## Quality Rubric
 
